@@ -118,6 +118,7 @@
         "name": "run-player",
         "title": "Run Player",
         "file": "run-player.html",
+        "workspace": "Speedrun",
         "width": 3
       },
       {
@@ -125,39 +126,41 @@
         "title": "Run Editor",
         "file": "run-editor-dash.html",
         "width": 3,
-        "workspace": "Run Modifications"
+        "workspace": "Speedrun Modifications"
       },
       {
         "name": "add-remove-runs-dash",
         "title": "Add/Remove Runs",
         "file": "add-remove-runs-dash.html",
         "width": 2,
-        "workspace": "Run Modifications"
+        "workspace": "Speedrun Modifications"
       },
       {
         "name": "horaro-schedule-import",
         "title": "Horaro Schedule Import",
         "file": "horaro-schedule-import.html",
         "width": 2,
-        "workspace": "Run Modifications"
+        "workspace": "Speedrun Modifications"
       },
       {
         "name": "oengus-schedule-import",
         "title": "Oengus Schedule Import",
         "file": "oengus-schedule-import.html",
         "width": 2,
-        "workspace": "Run Modifications"
+        "workspace": "Speedrun Modifications"
       },
       {
         "name": "timer",
         "title": "Timer",
         "file": "timer.html",
+        "workspace": "Speedrun",
         "width": 3
       },
       {
         "name": "twitch-control",
         "title": "Twitch Control",
         "file": "twitch-control.html",
+        "workspace": "Speedrun",
         "width": 3
       },
       {
@@ -165,12 +168,13 @@
         "title": "Player Layout",
         "file": "player-layout.html",
         "width": 2,
-        "workspace": "Scene Editing"
+        "workspace": "Speedrun"
       },
       {
         "name": "relay-control",
         "title": "Relay Control",
         "file": "relay-control.html",
+        "workspace": "Speedrun",
         "width": 2
       },
       {
@@ -187,6 +191,20 @@
         "file": "alert-dialog.html",
         "dialog": true
       }
+    ],
+    "graphics": [
+      {
+          "file": "speedrun-4x3.html",
+          "width": 1920,
+          "height": 1080,
+          "singleInstance": false
+      },
+      {
+        "file": "speedrun-16x9.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+    }
     ]
   }
 }

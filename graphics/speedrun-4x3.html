@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Loadscreen Speedrun Overlay - 4 by 3</title>
+
+        <link
+            rel="stylesheet"
+            href="/bundles/loadscreen-nodecg-bundle/graphics/common/loadscreen-graphics-default.css"
+        />
+        <link rel="stylesheet" href="./speedrun.css" />
+        <style ls-custom-settings-name="globalStyleCSS" ls-custom-settings-bundle="loadscreen-nodecg-bundle"></style>
+        <style ls-custom-settings-name="teamStyleCSS" ls-custom-settings-bundle="loadscreen-nodecg-bundle"></style>
+    </head>
+
+    <body id="speedrun-overlay" class="speedrun-overlay aspect-4x3">
+
+        <div id="timerElem">00:00:00</div>
+        <div id="gameTitle">foo</div>
+        <div id="gameCategory">type</div>
+        <div id="gameEstimate">est</div>
+        <div id="playerName">player name</div>
+        <div id="playerAt">player @</div>
+
+        <img class="speedrun-bg" src="speedrun-4x3.png" />
+
+        <script type="module" src="./speedrun.js"></script>
+        <script src="/bundles/loadscreen-nodecg-bundle/graphics/common/loadscreen-graphics-default.js"></script>
+    </body>
+</html>

@@ -132,5 +132,4 @@ dist
 # Built files
 /dashboard/
 /extension/
-/graphics/
 .idea/

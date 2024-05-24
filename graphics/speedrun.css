@@ -1,0 +1,84 @@
+body {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    font-variant: tabular-nums;
+}
+
+.speedrun-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+}
+
+#timerElem {
+    text-align: center;
+    position: absolute;
+    width: 649px;
+    top: 892px;
+    left: 406px;
+    font-family: var(--secondaryFont);
+    font-size: 122px;
+    font-weight: 900;
+    font-kerning: none;
+}
+
+#gameTitle {
+    text-align: center;
+    position: absolute;
+    top: 895px;
+    left: 1084px;
+    width: 826px;
+    font-size: 33px;
+}
+
+#gameCategory {
+    text-align: center;
+    position: absolute;
+    top: 1005px;
+    left: 1084px;
+    width: 500px;
+    font-size: 33px;
+    font-family: var(--secondaryFont);
+    font-weight: 300;
+}
+
+#gameEstimate {
+    text-align: center;
+    position: absolute;
+    width: 310px;
+    top: 982px;
+    left: 1600px;
+    font-family: var(--secondaryFont);
+    font-size: 42px;
+    font-weight: 700;
+    font-kerning: none;
+}
+
+.timer_paused {
+    opacity: 0.7;
+}
+
+#playerName {
+    color: black;
+    width: 320px;
+    text-align: end;
+    position: absolute;
+    top: 453px;
+    left: 54px;
+    font-size: 22px;
+}
+
+#playerAt {
+    color: black;
+    width: 320px;
+    text-align: end;
+    position: absolute;
+    top: 476px;
+    left: 54px;
+    font-size: 18px;
+    font-family: var(--secondaryFont);
+}
